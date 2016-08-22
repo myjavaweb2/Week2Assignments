@@ -19,7 +19,7 @@ public class ListingAgency {
 		
 		House ourDreamHome = new House();
 		
-		System.out.println("Welcome to the #1 For Sale House Listing site!");
+		System.out.println("Welcome to the #1 For House Sales Listing site!");
 		System.out.println("What kind of house are you looking to purchase?");
 		userInputKindOfHouse = sc.nextLine();
 		
@@ -101,7 +101,7 @@ public class ListingAgency {
 		System.out.println(ourDreamHome.toString());
 		System.out.println();
 		System.out.println("That's great! Because we actually have that kind of " 
-				+ userInputKindOfHouse + " house available for sale right now!!");
+				+ userInputKindOfHouse + " available for sale right now!!");
 		System.out.println();
 		
 		ourDreamHome.doorsOpen();

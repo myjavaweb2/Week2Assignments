@@ -113,9 +113,9 @@ public class House extends Building {
 
 	@Override
 	public String toString() {
-		return "So you want a " + kindOfHouse + " house, in zipcode " + zipcode + 
+		return "So you want a " + kindOfHouse + ", in zipcode " + zipcode + 
 				" with a size of " + sizeOfHouse + " square feet.\nAlso you want the house to have "
-				+ numberOfBedrooms + " bedrooms and " + numberOfBathrooms + " with " 
+				+ numberOfBedrooms + " bedrooms and " + numberOfBathrooms + " bathrooms with " 
 				+ typeOfFlooringForBedrooms + " flooring in the bedrooms,\n" 
 				+ typeOfFlooringForBathrooms + " flooring in the bathrooms and " 
 				+ typeOfFlooringForLivingroom + " flooring in the living room."
@@ -131,7 +131,7 @@ public class House extends Building {
 
 	@Override
 	public void doorsOpen() {
-		System.out.println("Fantastic working with you! Now the doors to your new home are open!!");		
+		System.out.println("It's been fantastic working with you! Now the doors to your new home are open!!");		
 	}
 	
 }
